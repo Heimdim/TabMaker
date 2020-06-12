@@ -54,10 +54,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\UserContext.cs" />
-    <Compile Include="Model\Judge.cs" />
-    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\Clash.cs" />
+    <Compile Include="Model\Club.cs" />
+    <Compile Include="Model\Round.cs" />
+    <Compile Include="Model\Team.cs" />
+    <Compile Include="Model\Tournir.cs" />
+    <Compile Include="Model\User\Judge.cs" />
+    <Compile Include="Model\User\Player.cs" />
     <Compile Include="Model\Position.cs" />
-    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\User\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,6 +70,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

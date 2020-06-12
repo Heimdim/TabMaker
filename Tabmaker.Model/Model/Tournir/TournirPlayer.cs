@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tabmaker.Model.Model
+namespace Tabmaker.Model.Model.Tournir
 {
-    public enum Position
+    class TournirPlayer
     {
-        First,
-        Second,
-        Third
     }
 }
