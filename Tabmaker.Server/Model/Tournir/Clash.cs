@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tabmaker.Server.Model
+namespace Tabmaker.Server.Model.Tournir
 {
     public class Clash
     {

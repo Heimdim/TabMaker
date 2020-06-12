@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tabmaker.Server.Model
+namespace Tabmaker.Server.Model.Tournir
 {
     public class Tournir
     {
@@ -12,7 +12,7 @@ namespace Tabmaker.Server.Model
         public string Name { get; set; }
         public string Topic { get; set; }
         public ICollection<Team> Teams { get; set; }
-        public ICollection<IJudge> Judges { get; set; }
+        public ICollection<TournirJudge> Judges { get; set; }
         public ICollection<Round> Rounds { get; set; }
 
 
