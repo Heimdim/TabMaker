@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tabmaker.Server.Model.Tournir
 {
-    public class Round
+    public class Round : BaseVM
     {
         public int Id { get; set; }
         public int Number { get; set; }

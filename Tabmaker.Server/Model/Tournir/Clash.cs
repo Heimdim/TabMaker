@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tabmaker.Server.Model.Tournir
 {
-    public class Clash
+    public class Clash : BaseVM
     {
         public int Id { get; set; }
         public Team AffirmativeTeam { get; set; }

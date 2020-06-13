@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tabmaker.Server.Model.Tournir
 {
-    public class TournirPlayer
+    public class TournirPlayer :BaseVM
     {
         public Team Team { get; set; }
         public Position Position { get; set; }
